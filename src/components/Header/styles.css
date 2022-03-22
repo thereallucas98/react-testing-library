@@ -1,0 +1,19 @@
+div.header-container {
+  width: 100%;
+  height: 400px;
+
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #2ebfa5;
+}
+
+div.header-container h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 24.21px;
+  color: #fff;
+}
