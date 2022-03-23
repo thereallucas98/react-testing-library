@@ -1,4 +1,5 @@
 import { TodoPayload } from "../Todo";
+import TodoFooter from "../TodoFooter";
 
 import "./styles.css";
 
@@ -43,9 +44,7 @@ function TodoList({ todos, setTodos }: TodoListProps) {
           ))
         }
       </div>
-      <div className="todo-footer">
-        <p>{totalOfTasksToBeDone} {totalOfTasksToBeDone === 1 ? "task" : "tasks"} left</p>
-      </div>
+      <TodoFooter amountOfTasksToDo={totalOfTasksToBeDone} />
     </div>
   );
 }
